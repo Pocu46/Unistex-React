@@ -1,8 +1,4 @@
-//@use 'App' as v;
-$dark-blue: #0e1314;
-$green: #4FFFCA;
-$white: #fff;
-$light-blue: #162027;
+@import '../styles/variables';
 
 .header {
   background: $dark-blue;
@@ -12,16 +8,12 @@ $light-blue: #162027;
     &.top {
       display: flex;
       justify-content: space-between;
-      //align-items: center;
-      //flex-direction: row;
       .logo {
         height: 38px;
         margin: 44px 0;
       }
-      .buttons {
+      .buttons-list {
         display: flex;
-        //justify-content: space-between;
-        //align-items: center;
         list-style-type: none;
         margin: 44px 0;
         .buttons-option {
@@ -34,18 +26,12 @@ $light-blue: #162027;
             font-size: 14px;
             line-height: 17px;
             text-transform: uppercase;
-            padding: 0 20px;
             &.left {
               border-right: 1px solid $white;
+              padding-right: 20px;
             }
             &.green {
               color: $green;
-              //text-decoration: none;
-              //font-style: normal;
-              //font-weight: 400;
-              //font-size: 14px;
-              //line-height: 17px;
-              //text-transform: uppercase;
             }
           }
         }
