@@ -10,14 +10,14 @@ const Deposit = () => {
         </div>
         <div className="text">
           <p className="text-content">
-            zero<br> deposit fee
+            zero<br/> deposit fee
           </p>
           <a className="text-button" href="">
             start
           </a>
         </div>
         <div className="rocket">
-          <img className="rocket-item" src="./images/deposit/rocket%20copy.png" alt="icon">
+          <img className="rocket-item" src="./images/deposit/rocket%20copy.png" alt="icon"/>
         </div>
       </div>
     </div>
