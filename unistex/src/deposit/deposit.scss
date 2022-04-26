@@ -1,0 +1,45 @@
+@import '../styles/variables';
+
+.deposit {
+  background: $dark-blue;
+  .numbers {
+    background: url("../images/deposit/0.png") no-repeat $dark-blue;
+    height: 638px;
+    width: 393px;
+    //display: flex;
+    //justify-content: right;
+    //align-items: center;
+    .percent {
+      color: $green;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 255px;
+      line-height: 311px;
+    }
+  }
+  .text {
+    .text-content {
+      color: #EBE7E5;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 63px;
+      text-transform: uppercase;
+    }
+    .text-button {
+      width: 181px;
+      height: 44px;
+      background: $green;
+      border-radius: 10px;
+      display: block;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 44px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #192227;
+    }
+  }
+}
