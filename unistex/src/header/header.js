@@ -1,28 +1,28 @@
 import React from "react";
-import './header.scss';
+import headerStyle from './header.module.scss';
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="container top">
-        <img className="logo" src={process.env.PUBLIC_URL + '/header/full_logo.png'} alt="icon"/>
-        <ul className="buttons-list">
-          <li className="buttons-option">
-            <a href="" className="buttons-item left">
+    <header className={headerStyle.header}>
+      <div className={headerStyle.container headerStyle.top}>
+        <img className={headerStyle.logo} src={process.env.PUBLIC_URL + '/header/full_logo.png'} alt="icon"/>
+        <ul className={headerStyle.buttons-list}>
+          <li className={headerStyle.buttons - option}>
+            <a href="" className={headerStyle.buttons-item headerStyle.left}>
               login
             </a>
           </li>
-          <li className="buttons-option">
-            <a href="" className="buttons-item green">
+          <li className={headerStyle.buttons - option}>
+            <a href="" className={headerStyle.buttons - item green}>
               registration
             </a>
           </li>
-          <li className="buttons-option">
-            <div className="language">
-              <a href="" className="buttons-item">
+          <li className={headerStyle.buttons - option}>
+            <div className={headerStyle.language}>
+              <a href="" className={headerStyle.buttons - item}>
                 en
               </a>
-              <img className="arrow" src={process.env.PUBLIC_URL + '/header/arrow.png'} alt="icon"/>
+              <img className={headerStyle.arrow} src={process.env.PUBLIC_URL + '/header/arrow.png'} alt="icon"/>
             </div>
           </li>
         </ul>
