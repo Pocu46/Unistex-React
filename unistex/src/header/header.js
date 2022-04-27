@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container top">
-        <img className="logo" src="full_logo.png" alt="icon"/>
+        <img className="logo" src={process.env.PUBLIC_URL + '/header/full_logo.png'} alt="icon"/>
         <ul className="buttons-list">
           <li className="buttons-option">
             <a href="" className="buttons-item left">
@@ -22,7 +22,7 @@ const Header = () => {
               <a href="" className="buttons-item">
                 en
               </a>
-              <img className="arrow" src="arrow.png" alt="icon"/>
+              <img className="arrow" src={process.env.PUBLIC_URL + '/header/arrow.png'} alt="icon"/>
             </div>
           </li>
         </ul>

@@ -1,7 +1,7 @@
 import React from "react";
-import './deposit.scss';
+import './trading.scss';
 
-const Deposit = () => {
+const Trading = () => {
   return (
     <div className="deposit">
       <div className="container">
@@ -17,11 +17,11 @@ const Deposit = () => {
           </a>
         </div>
         <div className="rocket">
-          {/*<img className="rocket-item" src={process.env.PUBLIC_URL + '/deposit/rocket.png'} alt="icon"/>*/}
+          <img className="rocket-item" src={process.env.PUBLIC_URL + '/trading/flag.png'} alt="icon"/>
         </div>
       </div>
     </div>
   )
 }
 
-export default Deposit;
+export default Trading;

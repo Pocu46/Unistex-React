@@ -1,0 +1,39 @@
+@import '../styles/variables';
+
+.trading {
+  background: $light-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    &.flag {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .trading-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 115%;
+        text-align: center;
+        color: $white;
+      }
+    }
+  }
+  .trading-button {
+    width: 341px;
+    height: 50px;
+    background: $green;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $light-blue;
+    margin: 120px 0;
+  }
+}
